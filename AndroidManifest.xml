@@ -47,7 +47,7 @@
         attributes and intent filters the same
         -->
         <activity
-            android:name="com.mi.android.globallauncher/com.miui.home.recents"
+            android:name="com.miui.home.recents.RecentsActivity"
             android:launchMode="singleTask"
             android:clearTaskOnLaunch="true"
             android:stateNotNeeded="true"
