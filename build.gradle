@@ -247,18 +247,18 @@ android {
         }
 
         github {
-            applicationId 'app.lawnchair'
+            applicationId 'com.mi.android.globallauncher'
             dimension "channel"
         }
 
         play {
-            applicationId "app.lawnchair.play"
+            applicationId "com.mi.android.globallauncher.play"
             dimension "channel"
             isDefault true
         }
 
         configureEach {
-            resValue("string", "launcher_component", "${applicationId}/app.lawnchair.LawnchairLauncher")
+            resValue("string", "launcher_component", "${applicationId}/com.mi.android.globallauncher")
         }
     }
 
